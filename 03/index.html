@@ -361,15 +361,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mengunduh-aplikasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mengunduh Aplikasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#instalasi-database" class="md-nav__link">
     <span class="md-ellipsis">
       Instalasi Database
@@ -511,15 +502,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mengunduh-aplikasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mengunduh Aplikasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#instalasi-database" class="md-nav__link">
     <span class="md-ellipsis">
       Instalasi Database
@@ -563,26 +545,17 @@
 <li>Pada jendela aplikasi laragon yang terbuka, klik start all untuk menjalankan server web dan database.</li>
 <li>cukup klik tanda <span class="keys"><kbd class="key-x">X</kbd></span> untuk me-minimize aplikasi laragon.</li>
 </ol>
-<h2 id="mengunduh-aplikasi">Mengunduh Aplikasi</h2>
-<p>Untuk mengunduh aplikasi ini dilakukan langkah-langkah berikut:</p>
-<ol>
-<li>kunjungi halaman release aplikasi pada <a href="https://github.com/masipnu/apg/releases/tag/v1.0">link berikut</a></li>
-<li>Untuk kode sumber dalam format ZIP dengan  klik <code>Source code (zip)</code> pada bagian Assets.</li>
-<li>Anda akan mendapatkan file <code>apg-1.0zip</code>.</li>
-<li>Ekstrak file tersebut pada direktori <code>C:\laragon\ww</code>.</li>
-<li>Anda akan mendapati direktori <code>apg-01</code>, silahkan rename menjadi <code>apg</code>.</li>
-</ol>
 <h2 id="instalasi-database">Instalasi Database</h2>
 <p>Karena Aplikasi ini bekerja menggunakan database maka kita perlu mengatur databasenya terlebih dahulu sebelum dijalankan.</p>
 <ol>
 <li>Buka Aplikasi Laragon.
-   <img alt="laragon" src="../Images/Laragon.png" /></li>
-<li>Klik <code>Database</code> untuk membuka aplikasi manajemen database heiding SQL
+    <img alt="laragon" src="../Images/Laragon.png" /></li>
+<li>Klik <code>Database</code> untuk membuka aplikasi manajemen database heidi SQL
     <img alt="heiding" src="../Images/heiding.png" /></li>
 <li>Biarkan bagian Password (Kosong), lalu klik <strong>Open</strong>
-    <img alt="open" src="../Images/open.png" /></li>
-<li>Saat jendela heidi sql terbuka, Klik menu <code>File</code> &gt; <code>RUn SQL file</code>, lalu arahkan ke file <code>apg.sql</code> yang berada didirektori <code>c:laragon\www\apg\database</code> dan klik <strong>Open</strong>. jika ada peringatan, klik <strong>Yess</strong>.</li>
-<li>Selama tidak ada pesan <code>Errror</code>,berarti database sudah tersedia.</li>
+    <img alt="laragon" src="../Images/laragon%20data.png" /></li>
+<li>Saat jendela heidi sql terbuka, Klik menu <code>File</code> &gt; <code>RUn SQL file</code>, lalu arahkan ke file <code>backup-domsan.sql</code> yang berada didirektori <code>c:laragon\www\domsan\database</code> dan klik <strong>Open</strong>. jika ada peringatan, klik <strong>Yess</strong>.</li>
+<li>Selama tidak ada pesan <code>Error</code>,berarti database sudah tersedia.</li>
 <li>Tekan tombol <span class="keys"><kbd class="key-f5">F5</kbd></span> pada jendela heiding SQl untuk me-refresh database, maka anda akan menekuman database <code>apg</code> lengkap dengan struktur tabel berserta contoh datanya.</li>
 <li>Sekarang anda bisa menutup aplikasi Heidi SQL dan Me-Minimize Laragon  </li>
 </ol>
@@ -590,7 +563,7 @@
 <p>setelah mengatur database, kita perlu melakukan konfigurasi database pada aplikasi APG.
 Ikuti langkah-langkah berikut.</p>
 <ol>
-<li>Buka file <code>config.php</code> pada direktori <code>C:\laragon\www\apg\library</code> dengan teks editor.
+<li>Buka file <code>config.php</code> pada direktori <code>C:\laragon\www\domsan\library</code> dengan teks editor.
    Bisa Visual studio code atau Notepad.</li>
 <li>Atur konfigurasi user dan password database pada baris berikut.</li>
 </ol>
