@@ -554,13 +554,13 @@
     <img alt="heiding" src="../Images/heiding.png" /></li>
 <li>Biarkan bagian Password (Kosong), lalu klik <strong>Open</strong>
     <img alt="laragon" src="../Images/laragon%20data.png" /></li>
-<li>Saat jendela heidi sql terbuka, Klik menu <code>File</code> &gt; <code>RUn SQL file</code>, lalu arahkan ke file <code>backup-domsan.sql</code> yang berada didirektori <code>c:laragon\www\domsan\database</code> dan klik <strong>Open</strong>. jika ada peringatan, klik <strong>Yess</strong>.</li>
+<li>Saat jendela heidi sql terbuka, Klik menu <code>File</code> &gt; <code>RUn SQL file</code>, lalu arahkan ke file <code>backup-domsan.sql</code> yang berada didirektori <code>c:laragon\www\domsan\database</code> dan klik <strong>Open</strong>. jika ada peringatan, klik <strong>Yes</strong>.</li>
 <li>Selama tidak ada pesan <code>Error</code>,berarti database sudah tersedia.</li>
-<li>Tekan tombol <span class="keys"><kbd class="key-f5">F5</kbd></span> pada jendela heiding SQl untuk me-refresh database, maka anda akan menekuman database <code>apg</code> lengkap dengan struktur tabel berserta contoh datanya.</li>
+<li>Tekan tombol <span class="keys"><kbd class="key-f5">F5</kbd></span> pada jendela heidi SQl untuk me-refresh database, maka anda akan menemukan database <code>domsan</code> lengkap dengan struktur tabel berserta contoh datanya.</li>
 <li>Sekarang anda bisa menutup aplikasi Heidi SQL dan Me-Minimize Laragon  </li>
 </ol>
 <h2 id="konfigurasi-aplikasi">Konfigurasi Aplikasi</h2>
-<p>setelah mengatur database, kita perlu melakukan konfigurasi database pada aplikasi APG.
+<p>setelah mengatur database, kita perlu melakukan konfigurasi database pada aplikasi domsan.
 Ikuti langkah-langkah berikut.</p>
 <ol>
 <li>Buka file <code>config.php</code> pada direktori <code>C:\laragon\www\domsan\library</code> dengan teks editor.
@@ -571,7 +571,7 @@ Ikuti langkah-langkah berikut.</p>
 <span class="nv">$host</span> <span class="o">=</span> <span class="s2">&quot;localhost&quot;</span><span class="p">;</span>
 <span class="nv">$user</span> <span class="o">=</span> <span class="s2">&quot;root&quot;</span><span class="p">;</span> 
 <span class="nv">$pass</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
-<span class="nv">$db</span> <span class="o">=</span> <span class="s2">&quot;apg&quot;</span><span class="p">;</span>
+<span class="nv">$db</span> <span class="o">=</span> <span class="s2">&quot;domsan&quot;</span><span class="p">;</span>
 
 <span class="nv">$con</span> <span class="o">=</span> <span class="nb">mysqli_connect</span><span class="p">(</span><span class="nv">$host</span><span class="p">,</span> <span class="nv">$user</span><span class="p">,</span> <span class="nv">$pass</span><span class="p">,</span> <span class="nv">$db</span><span class="p">);</span>
 
@@ -582,7 +582,7 @@ Ikuti langkah-langkah berikut.</p>
 </code></pre></div>
 <ol>
 <li>Karena pada user root tideak perlu memakai password, maka saya rubah <code>$user = "root";</code>  menjadi <code>$user = "";</code>.</li>
-<li>Cukup ini saja dan Aplikasi Menejemen Pegawai siap dijalankan.</li>
+<li>Cukup ini saja dan Aplikasi DOMSAN siap dijalankan.</li>
 </ol>
 
 
