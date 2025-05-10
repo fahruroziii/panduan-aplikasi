@@ -1,2 +1,0 @@
-# panduan-aplikasi
- Terbaruu
